@@ -1,3 +1,5 @@
+import 'dart:math';
+
 class Calculator {
   int add(int a, int b) {
     return a + b;
@@ -13,5 +15,9 @@ class Calculator {
 
   int multiply(int a, int b) {
     return a * b;
+  }
+
+  int generateRandonNumber() {
+    return Random().nextInt(1000);
   }
 }
