@@ -20,4 +20,8 @@ class Calculator {
   int generateRandonNumber() {
     return Random().nextInt(1000);
   }
+
+  int generateRandonNumber2() {
+    return Random().nextInt(1000);
+  }
 }
